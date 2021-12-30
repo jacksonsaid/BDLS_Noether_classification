@@ -1,0 +1,1074 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     35031,       1066]
+NotebookOptionsPosition[     32945,       1033]
+NotebookOutlinePosition[     33375,       1050]
+CellTagsIndexPosition[     33332,       1047]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ "Case 1: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox[
+      SubscriptBox["G", "4"], 
+      RowBox[{"(", 
+       RowBox[{"0", ",", "2"}], ")"}]], "(", 
+     RowBox[{"\[Phi]", ",", "X"}], ")"}], "\[NotEqual]", "0"}], 
+   TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0d7727f7-a21b-49cb-a1c4-2a63c1bcaec6"]
+}], "Text",
+ CellChangeTimes->{{3.849087372438466*^9, 3.849087439639201*^9}, {
+  3.849087644923047*^9, 3.849087649018108*^9}},
+ FontWeight->"Bold",
+ FontColor->RGBColor[
+  1, 0, 0],ExpressionUUID->"5a9ab4af-9801-4b81-bec3-d55d7e4434e1"],
+
+Cell[TextData[{
+ "Case 1.a: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     RowBox[{"h", "'"}], 
+     RowBox[{"(", "\[Phi]", ")"}]}], "\[NotEqual]", "0"}], TraditionalForm]],
+  ExpressionUUID->"28d071ec-ec76-4ee8-b9c2-39be97de0853"],
+ " (component of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["G", "3"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], TraditionalForm]],ExpressionUUID->
+  "3d12b7d7-6946-4ce7-b92f-ae93403a2e5a"],
+ ")"
+}], "Text",
+ CellChangeTimes->{{3.849087607026376*^9, 3.849087640466227*^9}},
+ FontWeight->"Bold",
+ FontColor->RGBColor[
+  1, 0, 0],ExpressionUUID->"2a061bb4-995f-4d70-8991-8b1175f368d3"],
+
+Cell[TextData[{
+ "Case 1.a.i: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox[
+      SubscriptBox["G", "Tele"], 
+      RowBox[{"(", 
+       RowBox[{"0", ",", "0", ",", "0", ",", "2"}], ")"}]], "(", 
+     RowBox[{"\[Phi]", ",", "X", ",", "T", ",", 
+      SubscriptBox["I", "2"]}], ")"}], "\[NotEqual]", "0"}], 
+   TraditionalForm]],ExpressionUUID->"657453cf-e3ea-4b23-844d-dcd70940d4e6"]
+}], "Text",
+ CellChangeTimes->{{3.84908770420884*^9, 3.8490877285621567`*^9}},
+ FontWeight->"Bold",
+ FontColor->RGBColor[
+  1, 0, 0],ExpressionUUID->"6ed08c69-3d43-4d94-a0dd-bffb45ed24be"],
+
+Cell[TextData[Cell[BoxData[{
+ FormBox[
+  RowBox[{
+   RowBox[{"\[Xi]", "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{"\[Xi]", "(", "t", ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "a"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", "0"}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "\[Phi]"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", "0"}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "N"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{
+    RowBox[{"-", "N"}], " ", 
+    RowBox[{"\[Xi]", "'"}], 
+    RowBox[{"(", "t", ")"}]}]}], TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "T"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", "0"}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", 
+     SubscriptBox["I", "2"]], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", "0"}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{"f", "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   SubscriptBox["c", "1"]}], TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "2"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], " ", "=", " ", 
+   RowBox[{
+    SubscriptBox["G", "2"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "Tele"], "(", 
+    RowBox[{"\[Phi]", ",", "X", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{
+    SubscriptBox["G", "Tele"], "(", 
+    RowBox[{"\[Phi]", ",", "T", ",", 
+     SubscriptBox[
+      StyleBox["I",
+       FontSlant->"Italic"], "2"]}], ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "3"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], "=", 
+   RowBox[{"h", "(", "\[Phi]", ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "4"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], "=", 
+   RowBox[{
+    SubscriptBox["G", "4"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "5"], "(", "\[Phi]", ")"}], "=", 
+   RowBox[{
+    SubscriptBox["G", "5"], "(", "\[Phi]", ")"}]}], TraditionalForm]}],
+ FormatType->
+  TraditionalForm,ExpressionUUID->"8a94880a-fd6a-4d15-ae5f-f0ef9f0ffe1d"]], \
+"Text",
+ CellChangeTimes->{{3.849088038139958*^9, 
+  3.849088222910987*^9}},ExpressionUUID->"e6b77af4-6237-4b8c-8015-\
+502826c77efd"],
+
+Cell[TextData[{
+ "Case 1.a.ii: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox[
+      SubscriptBox["G", "Tele"], 
+      RowBox[{"(", 
+       RowBox[{"0", ",", "0", ",", "0", ",", "2"}], ")"}]], "(", 
+     RowBox[{"\[Phi]", ",", "X", ",", "T", ",", 
+      SubscriptBox["I", "2"]}], ")"}], "=", 
+    RowBox[{
+     RowBox[{"0", "\[Rule]", 
+      RowBox[{
+       SubscriptBox["G", "Tele"], "(", 
+       RowBox[{"\[Phi]", ",", "X", ",", "T", ",", 
+        SubscriptBox["I", "2"]}], ")"}]}], "=", 
+     RowBox[{
+      RowBox[{
+       SubscriptBox["G", "Tele1"], "(", 
+       RowBox[{"\[Phi]", ",", "X", ",", "T"}], ")"}], "+", 
+      RowBox[{
+       SubscriptBox["I", "2"], 
+       RowBox[{
+        SubscriptBox["G", "Tele2"], "(", 
+        RowBox[{"\[Phi]", ",", "X", ",", "T"}], ")"}]}]}]}]}], 
+   TraditionalForm]],ExpressionUUID->"dc702313-3c6a-42f1-9818-c2204612ef12"]
+}], "Text",
+ CellChangeTimes->{{3.849087734155498*^9, 3.849087739737577*^9}, {
+  3.849088246814597*^9, 3.8490882806711617`*^9}},
+ FontWeight->"Bold",
+ FontColor->RGBColor[
+  1, 0, 0],ExpressionUUID->"56a1584d-de9b-4fcb-a052-065242aed78a"],
+
+Cell[TextData[{
+ "Case 1.a.ii.1: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox[
+      SubscriptBox["G", "Tele2"], 
+      RowBox[{"(", 
+       RowBox[{"0", ",", "0", ",", "1"}], ")"}]], "(", 
+     RowBox[{"\[Phi]", ",", "X", ",", "T"}], ")"}], "\[NotEqual]", "0"}], 
+   TraditionalForm]],ExpressionUUID->"0ea60530-4487-4af5-aec9-194fedda977f"]
+}], "Text",
+ CellChangeTimes->{{3.849088296464527*^9, 3.849088349943625*^9}},
+ FontWeight->"Bold",
+ FontColor->RGBColor[
+  1, 0, 0],ExpressionUUID->"ef2df211-88c7-4884-bb02-735004e41109"],
+
+Cell[TextData[Cell[BoxData[{
+ FormBox[
+  RowBox[{
+   RowBox[{"\[Xi]", "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{"\[Xi]", "(", "t", ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "a"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", "0"}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "\[Phi]"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", "0"}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "N"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{
+    RowBox[{"-", "N"}], " ", 
+    RowBox[{"\[Xi]", "'"}], 
+    RowBox[{"(", "t", ")"}]}]}], TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "T"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", "0"}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", 
+     SubscriptBox["I", "2"]], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", "0"}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{"f", "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   SubscriptBox["c", "1"]}], TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "2"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], " ", "=", " ", 
+   RowBox[{
+    SubscriptBox["G", "2"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "Tele"], "(", 
+    RowBox[{"\[Phi]", ",", "X", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["G", "Tele1"], "(", 
+     RowBox[{"\[Phi]", ",", "X", ",", "T"}], ")"}], "+", 
+    RowBox[{
+     SubscriptBox["I", "2"], 
+     RowBox[{
+      SubscriptBox["G", "Tele2"], "(", 
+      RowBox[{"\[Phi]", ",", "X", ",", "T"}], ")"}]}]}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "3"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], "=", 
+   RowBox[{"h", "(", "\[Phi]", ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "4"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], "=", 
+   RowBox[{
+    SubscriptBox["G", "4"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "5"], "(", "\[Phi]", ")"}], "=", 
+   RowBox[{
+    SubscriptBox["G", "5"], "(", "\[Phi]", ")"}]}], TraditionalForm]}],
+ FormatType->
+  TraditionalForm,ExpressionUUID->"cfbd690e-96c1-4671-a43c-1017086c293e"]], \
+"Text",
+ CellChangeTimes->{{3.849088038139958*^9, 3.849088222910987*^9}, {
+  3.8490884243609753`*^9, 
+  3.849088468089628*^9}},ExpressionUUID->"03ac3bc5-1114-49b8-ae47-\
+dc84654174da"],
+
+Cell[TextData[{
+ "Case 1.a.ii.2: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox[
+      SubscriptBox["G", "Tele2"], 
+      RowBox[{"(", 
+       RowBox[{"0", ",", "0", ",", "1"}], ")"}]], "(", 
+     RowBox[{"\[Phi]", ",", "X", ",", "T"}], ")"}], "=", 
+    RowBox[{
+     RowBox[{"0", "\[Rule]", 
+      RowBox[{
+       SubscriptBox["G", "Tele2"], "(", 
+       RowBox[{"\[Phi]", ",", "X", ",", "T"}], ")"}]}], "=", 
+     RowBox[{
+      SubscriptBox["G", "Tele2"], "(", 
+      RowBox[{"\[Phi]", ",", "X"}], ")"}]}]}], TraditionalForm]],
+  ExpressionUUID->"685dfe18-9b27-4230-ac3b-03fa19e00f8e"]
+}], "Text",
+ CellChangeTimes->{{3.8490883563409147`*^9, 3.849088390047947*^9}},
+ FontWeight->"Bold",
+ FontColor->RGBColor[
+  1, 0, 0],ExpressionUUID->"11051a46-e802-4fb5-8b8c-5248fce6b1f4"],
+
+Cell[TextData[Cell[BoxData[{
+ FormBox[
+  RowBox[{
+   RowBox[{"\[Xi]", "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{"\[Xi]", "(", "t", ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "a"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", "0"}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "\[Phi]"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", "0"}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "N"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{
+    RowBox[{"-", "N"}], " ", 
+    RowBox[{"\[Xi]", "'"}], 
+    RowBox[{"(", "t", ")"}]}]}], TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "T"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", "0"}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", 
+     SubscriptBox["I", "2"]], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{
+    SubscriptBox["\[Eta]", 
+     SubscriptBox["I", "2"]], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{"f", "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   SubscriptBox["c", "1"]}], TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "2"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], " ", "=", " ", 
+   RowBox[{
+    SubscriptBox["G", "2"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "Tele"], "(", 
+    RowBox[{"\[Phi]", ",", "X", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["G", "Tele1"], "(", 
+     RowBox[{"\[Phi]", ",", "X", ",", "T"}], ")"}], "+", 
+    RowBox[{
+     SubscriptBox["I", "2"], 
+     RowBox[{
+      SubscriptBox["G", "Tele2"], "(", 
+      RowBox[{"\[Phi]", ",", "X"}], ")"}]}]}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "3"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], "=", 
+   RowBox[{"h", "(", "\[Phi]", ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "4"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], "=", 
+   RowBox[{
+    SubscriptBox["G", "4"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "5"], "(", "\[Phi]", ")"}], "=", 
+   RowBox[{
+    SubscriptBox["G", "5"], "(", "\[Phi]", ")"}]}], TraditionalForm]}],
+ FormatType->
+  TraditionalForm,ExpressionUUID->"f1f41e84-a1a8-4941-b5a0-5114b994f0b6"]], \
+"Text",
+ CellChangeTimes->{{3.849088038139958*^9, 3.849088222910987*^9}, {
+  3.8490884243609753`*^9, 3.849088468089628*^9}, {3.849088509035081*^9, 
+  3.849088536130724*^9}},ExpressionUUID->"9abf652f-d787-44de-a8da-\
+d4b384468b8f"],
+
+Cell[TextData[{
+ "Case 1.b: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     RowBox[{"h", "'"}], 
+     RowBox[{"(", "\[Phi]", ")"}]}], "=", 
+    RowBox[{
+     RowBox[{"0", "\[Rule]", 
+      RowBox[{"h", "(", "\[Phi]", ")"}]}], "=", 
+     SubscriptBox["c", "2"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "45ea80e3-71c4-41e8-ad96-0964778e4ac4"],
+ " (component of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["G", "3"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "700b52b6-47e5-478f-b578-b5759defc7e8"],
+ ")"
+}], "Text",
+ CellChangeTimes->{{3.8490876598030243`*^9, 3.84908768231962*^9}, {
+  3.849092788559182*^9, 3.849092790911894*^9}},
+ FontWeight->"Bold",
+ FontColor->RGBColor[
+  1, 0, 0],ExpressionUUID->"891c7581-3bf4-474c-a8ab-982afb82c05f"],
+
+Cell[TextData[{
+ "Case 1.b.i: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox[
+      SubscriptBox["G", "Tele"], 
+      RowBox[{"(", 
+       RowBox[{"0", ",", "0", ",", "0", ",", "2"}], ")"}]], "(", 
+     RowBox[{"\[Phi]", ",", "X", ",", "T", ",", 
+      SubscriptBox["I", "2"]}], ")"}], "\[NotEqual]", "0"}], 
+   TraditionalForm]],ExpressionUUID->"34625a5f-2b97-4202-892b-28e82c6cc4c9"]
+}], "Text",
+ CellChangeTimes->{{3.8490885677757387`*^9, 3.8490886097815742`*^9}},
+ FontWeight->"Bold",
+ FontColor->RGBColor[
+  1, 0, 0],ExpressionUUID->"55a6b434-a2bd-46ef-8734-a0a85017cc39"],
+
+Cell[TextData[Cell[BoxData[{
+ FormBox[
+  RowBox[{
+   RowBox[{"\[Xi]", "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{"\[Xi]", "(", "t", ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "a"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", "0"}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "\[Phi]"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", "0"}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "N"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{
+    RowBox[{"-", "N"}], " ", 
+    RowBox[{"\[Xi]", "'"}], 
+    RowBox[{"(", "t", ")"}]}]}], TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "T"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", "0"}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", 
+     SubscriptBox["I", "2"]], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", "0"}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{"f", "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   SubscriptBox["c", "1"]}], TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "2"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], " ", "=", " ", 
+   RowBox[{
+    SubscriptBox["G", "2"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "Tele"], "(", 
+    RowBox[{"\[Phi]", ",", "X", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["G", "Tele1"], "(", 
+     RowBox[{"\[Phi]", ",", "T", ",", 
+      SubscriptBox["I", "2"]}], ")"}], "+", 
+    RowBox[{
+     SubscriptBox["G", "Tele2"], "(", 
+     RowBox[{"\[Phi]", ",", "T"}], ")"}], "+", 
+    RowBox[{
+     SubscriptBox["G", "Tele3"], "(", 
+     RowBox[{"\[Phi]", ",", "X"}], ")"}], "+", 
+    RowBox[{
+     RowBox[{
+      SubscriptBox["G", "Tele4"], "(", 
+      RowBox[{"\[Phi]", ",", "X"}], ")"}], "T"}], "+", 
+    RowBox[{"2", 
+     SubscriptBox["I", "2"], 
+     RowBox[{
+      SuperscriptBox[
+       SubscriptBox["G", "4"], 
+       RowBox[{"(", 
+        RowBox[{"1", ",", "0"}], ")"}]], "(", 
+      RowBox[{"\[Phi]", ",", "X"}], ")"}]}]}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "3"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], "=", 
+   SubscriptBox["c", "2"]}], TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "4"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], "=", 
+   RowBox[{
+    SubscriptBox["G", "4"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "5"], "(", "\[Phi]", ")"}], "=", 
+   RowBox[{
+    SubscriptBox["G", "5"], "(", "\[Phi]", ")"}]}], TraditionalForm]}],
+ FormatType->
+  TraditionalForm,ExpressionUUID->"21a5ccdd-bf59-4054-b56e-0242f153b68f"]], \
+"Text",
+ CellChangeTimes->{{3.849088038139958*^9, 3.849088222910987*^9}, {
+  3.8490884243609753`*^9, 3.849088468089628*^9}, {3.849088509035081*^9, 
+  3.849088536130724*^9}, {3.849092770156802*^9, 3.8490927701570883`*^9}, {
+  3.849092800246292*^9, 
+  3.849092903591962*^9}},ExpressionUUID->"1e1cd8d3-c4ca-4313-9a8d-\
+f1847e2c066d"],
+
+Cell[TextData[{
+ "Case 1.b.ii: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox[
+      SubscriptBox["G", "Tele"], 
+      RowBox[{"(", 
+       RowBox[{"0", ",", "0", ",", "0", ",", "2"}], ")"}]], "(", 
+     RowBox[{"\[Phi]", ",", "X", ",", "T", ",", 
+      SubscriptBox["I", "2"]}], ")"}], "=", 
+    RowBox[{
+     RowBox[{"0", "\[Rule]", 
+      RowBox[{
+       SubscriptBox["G", "Tele"], "(", 
+       RowBox[{"\[Phi]", ",", "X", ",", "T", ",", 
+        SubscriptBox["I", "2"]}], ")"}]}], "=", 
+     RowBox[{
+      RowBox[{
+       SubscriptBox["G", "Tele1"], "(", 
+       RowBox[{"\[Phi]", ",", "X", ",", "T"}], ")"}], "+", 
+      RowBox[{
+       SubscriptBox["G", "Tele2"], "(", 
+       RowBox[{"\[Phi]", ",", "X", ",", 
+        SubscriptBox["I", "2"]}], ")"}]}]}]}], TraditionalForm]],
+  ExpressionUUID->"41920436-d655-43c8-8af8-1fc905405e87"]
+}], "Text",
+ CellChangeTimes->{{3.8490886139782753`*^9, 3.849088629081637*^9}, {
+  3.849092946179286*^9, 3.8490929588450613`*^9}},
+ FontWeight->"Bold",
+ FontColor->RGBColor[
+  1, 0, 0],ExpressionUUID->"b9265d89-16e7-4358-9e55-d53c3482190e"],
+
+Cell[TextData[{
+ "Case 1.b.ii.1: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox[
+      SubscriptBox["G", "Tele2"], 
+      RowBox[{"(", 
+       RowBox[{"0", ",", "0", ",", "2"}], ")"}]], "(", 
+     RowBox[{"\[Phi]", ",", "X", ",", 
+      SubscriptBox["I", "2"]}], ")"}], "\[NotEqual]", "0"}], 
+   TraditionalForm]],ExpressionUUID->"85ead015-07a8-4897-8325-2d26e02f60d5"]
+}], "Text",
+ CellChangeTimes->{{3.8490886139782753`*^9, 3.849088629081637*^9}, {
+  3.849092946179286*^9, 3.849092996367105*^9}},
+ FontWeight->"Bold",
+ FontColor->RGBColor[
+  1, 0, 0],ExpressionUUID->"66d4d132-755c-43f3-b623-697baf8a4830"],
+
+Cell[TextData[Cell[BoxData[{
+ FormBox[
+  RowBox[{
+   RowBox[{"\[Xi]", "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{"\[Xi]", "(", "t", ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "a"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   FractionBox[
+    SubscriptBox["c", "3"], 
+    SqrtBox["a"]]}], TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "\[Phi]"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", "0"}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "N"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{
+    RowBox[{"-", "N"}], " ", 
+    RowBox[{"\[Xi]", "'"}], 
+    RowBox[{"(", "t", ")"}]}]}], TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "T"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", "0"}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", 
+     SubscriptBox["I", "2"]], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{"-", 
+    FractionBox[
+     RowBox[{"3", 
+      SubscriptBox["c", "3"], 
+      SubscriptBox["I", "2"]}], 
+     RowBox[{"2", 
+      SuperscriptBox["a", 
+       RowBox[{"3", "/", "2"}]]}]]}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{"f", "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   SubscriptBox["c", "1"]}], TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "2"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], " ", "=", " ", 
+   RowBox[{
+    SubscriptBox["G", "2"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "Tele"], "(", 
+    RowBox[{"\[Phi]", ",", "X", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{
+    RowBox[{"-", 
+     RowBox[{
+      SubscriptBox["G", "2"], "(", 
+      RowBox[{"\[Phi]", ",", "X"}], ")"}]}], "-", 
+    RowBox[{
+     RowBox[{
+      SubscriptBox["G", "Tele2a"], "(", "\[Phi]", ")"}], " ", 
+     SuperscriptBox[
+      SubscriptBox["I", "2"], "2"]}], "+", 
+    RowBox[{
+     RowBox[{
+      SubscriptBox["G", "Tele1a"], "(", 
+      RowBox[{"\[Phi]", ",", "X"}], ")"}], " ", "T"}], "+", 
+    RowBox[{
+     RowBox[{
+      SubscriptBox["G", "4"], "(", 
+      RowBox[{"\[Phi]", ",", "X"}], ")"}], " ", 
+     RowBox[{"Log", "[", "T", "]"}], " ", "T"}], "+", 
+    RowBox[{"2", " ", 
+     SubscriptBox["I", "2"], " ", 
+     RowBox[{
+      SuperscriptBox[
+       SubscriptBox["G", "4"], 
+       TagBox[
+        RowBox[{"(", 
+         RowBox[{"1", ",", "0"}], ")"}],
+        Derivative],
+       MultilineFunction->None], "(", 
+      RowBox[{"\[Phi]", ",", "X"}], ")"}]}]}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "3"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], "=", 
+   SubscriptBox["c", "2"]}], TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "4"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], "=", 
+   RowBox[{
+    SubscriptBox["G", "4"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "5"], "(", "\[Phi]", ")"}], "=", 
+   RowBox[{
+    SubscriptBox["G", "5"], "(", "\[Phi]", ")"}]}], 
+  TraditionalForm]}],ExpressionUUID->"8e2f3799-1c69-44c6-bee1-0057c36105a2"]],\
+ "Text",
+ CellChangeTimes->{{3.849088038139958*^9, 3.849088222910987*^9}, {
+  3.8490884243609753`*^9, 3.849088468089628*^9}, {3.849088509035081*^9, 
+  3.849088536130724*^9}, {3.849092770156802*^9, 3.8490927701570883`*^9}, {
+  3.849092800246292*^9, 3.849092903591962*^9}, {3.849093106825881*^9, 
+  3.849093274325885*^9}, {3.8490933553560953`*^9, 3.849093355356227*^9}, {
+  3.849093387306932*^9, 
+  3.849093389712714*^9}},ExpressionUUID->"33eda38f-f449-4d3e-9fc4-\
+94d85f3191bf"],
+
+Cell[TextData[{
+ "Case 1.b.ii.2: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox[
+      SubscriptBox["G", "Tele2"], 
+      RowBox[{"(", 
+       RowBox[{"0", ",", "0", ",", "2"}], ")"}]], "(", 
+     RowBox[{"\[Phi]", ",", "X", ",", 
+      SubscriptBox["I", "2"]}], ")"}], "=", 
+    RowBox[{
+     RowBox[{"0", "\[Rule]", 
+      RowBox[{
+       SubscriptBox["G", "Tele2"], "(", 
+       RowBox[{"\[Phi]", ",", "X", ",", 
+        SubscriptBox["I", "2"]}], ")"}]}], "=", 
+     RowBox[{
+      RowBox[{
+       SubscriptBox["G", "Tele2a"], "(", 
+       RowBox[{"\[Phi]", ",", "X"}], ")"}], "+", 
+      RowBox[{
+       SubscriptBox["I", "2"], 
+       RowBox[{
+        SubscriptBox["G", "Tele2b"], "(", 
+        RowBox[{"\[Phi]", ",", "X"}], ")"}]}]}]}]}], TraditionalForm]],
+  ExpressionUUID->"4b0581e3-5336-47c5-8b0a-1bb8df598cb1"]
+}], "Text",
+ CellChangeTimes->{{3.84909300087177*^9, 3.849093025960485*^9}, {
+  3.84909331094284*^9, 3.8490933326389027`*^9}},
+ FontWeight->"Bold",
+ FontColor->RGBColor[
+  1, 0, 0],ExpressionUUID->"5e2718c5-b75b-4d2c-b0fb-d6e5c8c599f2"],
+
+Cell[TextData[Cell[BoxData[{
+ FormBox[
+  RowBox[{
+   RowBox[{"\[Xi]", "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{"\[Xi]", "(", "t", ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "a"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   FractionBox[
+    SubscriptBox["c", "3"], 
+    SqrtBox["a"]]}], TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "\[Phi]"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", "0"}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "N"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{
+    RowBox[{"-", "N"}], " ", 
+    RowBox[{"\[Xi]", "'"}], 
+    RowBox[{"(", "t", ")"}]}]}], TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", "T"], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", "0"}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Eta]", 
+     SubscriptBox["I", "2"]], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{
+    SubscriptBox["\[Eta]", 
+     SubscriptBox["I", "2"]], "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{"f", "(", 
+    RowBox[{"t", ",", "a", ",", "\[Phi]", ",", "N", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   SubscriptBox["c", "1"]}], TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "2"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], " ", "=", " ", 
+   RowBox[{
+    SubscriptBox["G", "2"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "Tele"], "(", 
+    RowBox[{"\[Phi]", ",", "X", ",", "T", ",", 
+     SubscriptBox["I", "2"]}], ")"}], "=", 
+   RowBox[{
+    RowBox[{"-", 
+     RowBox[{
+      SubscriptBox["G", "2"], "(", 
+      RowBox[{"\[Phi]", ",", "X"}], ")"}]}], "+", 
+    RowBox[{
+     RowBox[{
+      SubscriptBox["G", "Tele1a"], "(", 
+      RowBox[{"\[Phi]", ",", "X"}], ")"}], " ", "T"}], "+", 
+    RowBox[{
+     RowBox[{
+      SubscriptBox["G", "4"], "(", 
+      RowBox[{"\[Phi]", ",", "X"}], ")"}], " ", 
+     RowBox[{"Log", "[", "T", "]"}], " ", "T"}], "+", 
+    RowBox[{"2", " ", 
+     SubscriptBox["I", "2"], " ", 
+     RowBox[{
+      SuperscriptBox[
+       SubscriptBox["G", "4"], 
+       TagBox[
+        RowBox[{"(", 
+         RowBox[{"1", ",", "0"}], ")"}],
+        Derivative],
+       MultilineFunction->None], "(", 
+      RowBox[{"\[Phi]", ",", "X"}], ")"}]}]}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "3"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], "=", 
+   SubscriptBox["c", "2"]}], TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "4"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}], "=", 
+   RowBox[{
+    SubscriptBox["G", "4"], "(", 
+    RowBox[{"\[Phi]", ",", "X"}], ")"}]}], 
+  TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["G", "5"], "(", "\[Phi]", ")"}], "=", 
+   RowBox[{
+    SubscriptBox["G", "5"], "(", "\[Phi]", ")"}]}], TraditionalForm]}],
+ FormatType->
+  TraditionalForm,ExpressionUUID->"80f4dbeb-466a-47be-9d53-8276a7298c28"]], \
+"Text",
+ CellChangeTimes->{{3.849088038139958*^9, 3.849088222910987*^9}, {
+  3.8490884243609753`*^9, 3.849088468089628*^9}, {3.849088509035081*^9, 
+  3.849088536130724*^9}, {3.849092770156802*^9, 3.8490927701570883`*^9}, {
+  3.849092800246292*^9, 3.849092903591962*^9}, {3.849093106825881*^9, 
+  3.849093274325885*^9}, {3.8490933553560953`*^9, 3.849093355356227*^9}, {
+  3.849093387306932*^9, 3.849093389712714*^9}, {3.849093432498865*^9, 
+  3.849093442601899*^9}},ExpressionUUID->"e1c1c1ef-9597-4abe-9551-\
+6bfdf1e41fd2"],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{
+  3.849087463997368*^9},ExpressionUUID->"2906d4f7-d9e2-4891-993c-\
+894cd4a1efb3"],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{
+  3.8490874644369802`*^9},ExpressionUUID->"5925c298-fa25-4df0-b12f-\
+bc19ad6bb190"]
+},
+WindowSize->{1440., 782.25},
+WindowMargins->{{1440, Automatic}, {0, Automatic}},
+Magnification:>1.2 Inherited,
+FrontEndVersion->"12.2 for Linux x86 (64-bit) (December 12, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"e2190c37-eb25-40b7-a04c-2129aee8c51c"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 610, 19, 42, "Text",ExpressionUUID->"5a9ab4af-9801-4b81-bec3-d55d7e4434e1"],
+Cell[1171, 41, 648, 21, 42, "Text",ExpressionUUID->"2a061bb4-995f-4d70-8991-8b1175f368d3"],
+Cell[1822, 64, 601, 17, 42, "Text",ExpressionUUID->"6ed08c69-3d43-4d94-a0dd-bffb45ed24be"],
+Cell[2426, 83, 3280, 102, 362, "Text",ExpressionUUID->"e6b77af4-6237-4b8c-8015-502826c77efd"],
+Cell[5709, 187, 1132, 33, 42, "Text",ExpressionUUID->"56a1584d-de9b-4fcb-a052-065242aed78a"],
+Cell[6844, 222, 558, 16, 42, "Text",ExpressionUUID->"ef2df211-88c7-4884-bb02-735004e41109"],
+Cell[7405, 240, 3437, 106, 362, "Text",ExpressionUUID->"03ac3bc5-1114-49b8-ae47-dc84654174da"],
+Cell[10845, 348, 805, 24, 42, "Text",ExpressionUUID->"11051a46-e802-4fb5-8b8c-5248fce6b1f4"],
+Cell[11653, 374, 3651, 111, 362, "Text",ExpressionUUID->"9abf652f-d787-44de-a8da-d4b384468b8f"],
+Cell[15307, 487, 869, 28, 42, "Text",ExpressionUUID->"891c7581-3bf4-474c-a8ab-982afb82c05f"],
+Cell[16179, 517, 604, 17, 42, "Text",ExpressionUUID->"55a6b434-a2bd-46ef-8734-a0a85017cc39"],
+Cell[16786, 536, 3995, 121, 362, "Text",ExpressionUUID->"1e1cd8d3-c4ca-4313-9a8d-f1847e2c066d"],
+Cell[20784, 659, 1109, 32, 42, "Text",ExpressionUUID->"b9265d89-16e7-4358-9e55-d53c3482190e"],
+Cell[21896, 693, 635, 18, 42, "Text",ExpressionUUID->"66d4d132-755c-43f3-b623-697baf8a4830"],
+Cell[22534, 713, 4556, 139, 378, "Text",ExpressionUUID->"33eda38f-f449-4d3e-9fc4-94d85f3191bf"],
+Cell[27093, 854, 1085, 33, 42, "Text",ExpressionUUID->"5e2718c5-b75b-4d2c-b0fb-d6e5c8c599f2"],
+Cell[28181, 889, 4458, 132, 372, "Text",ExpressionUUID->"e1c1c1ef-9597-4abe-9551-6bfdf1e41fd2"],
+Cell[32642, 1023, 147, 3, 60, "Input",ExpressionUUID->"2906d4f7-d9e2-4891-993c-894cd4a1efb3"],
+Cell[32792, 1028, 149, 3, 60, "Input",ExpressionUUID->"5925c298-fa25-4df0-b12f-bc19ad6bb190"]
+}
+]
+*)
+
